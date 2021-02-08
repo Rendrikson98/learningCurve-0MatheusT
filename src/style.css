@@ -262,3 +262,15 @@ header{
     margin-left: 0;
   }
 }
+
+@media(min-width: 1474px){
+  .card:nth-child(3n){
+    margin-right: 15px;
+  }
+  .card:nth-child(3n+1){
+    margin-left: 0;
+  }
+  #marginLeft{
+    margin-left: 0;
+  } 
+}
